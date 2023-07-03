@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    font-family: 'Syne', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size:small;
+}
+
+header {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+h1{
+    font-size: 40px;
+}
+
+.title {
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: underline;
+    font-size: medium;
+}
+
+h4 {
+    text-decoration: bold;
+}
+
+.portraits {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.portraits img{
+    height: 300px;
+    width: 300px;
+}
+
+#ala {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#self {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#winter {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#port {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#port img{
+    height: 500px;
+    width: 1000px;
+}
+
+.my_paragraph p{
+    max-width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: medium;
+    margin-top: 3%;
+}
+
+footer {
+    margin-top: 3%;
+    border-top: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+}
+  
+
+footer h2{
+    text-decoration: bold;
+}
+
+footer h2,
+footer .address_info {
+    align-self: flex-start;
+}
+  
+footer .contact_info {
+    align-self: flex-end;
+}
+  
+footer .copyright {
+    align-self: flex-start;
+    margin-top: auto;
+}
+  
